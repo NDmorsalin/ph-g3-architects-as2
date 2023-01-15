@@ -1,0 +1,39 @@
+.container {
+  width: 95%;
+  margin: 3rem auto;
+}
+
+.btn {
+  background: #ff900e;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.section-description {
+  color: #727272;
+  margin: 1rem 0;
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media screen and (min-width: 992px) {
+  .section-title {
+    font-size: 45px;
+  }
+/* todo  remove margin form all section*/
+  .container {
+    width: 85%;
+    margin: 5rem auto;
+  }
+  
+}

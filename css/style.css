@@ -1,0 +1,56 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+/* google font */
+
+/* universal css */
+@import url(./universal.css);
+/* base style */
+@import url(./base-style.css);
+
+/* common style */
+@import url(./comon-style.css);
+
+/* ---------------------------
+header section with nav bar
+------------------------------*/
+@import url(./header.css);
+
+/* ---------------------------
+banner section
+------------------------------*/
+@import url(./banner.css);
+
+/* ---------------------------
+Quick list of Our Features
+------------------------------*/
+@import url(./quick-list.css);
+
+/* ---------------------------
+Our Features Section
+------------------------------*/
+@import url(./feature.css);
+
+/* ---------------------------
+some facts Section
+------------------------------*/
+@import url(./facts.css);
+
+/* ---------------------------
+Extra feature
+------------------------------*/
+@import url(./extra-feaature.css);
+
+/* ---------------------------
+some facts Section
+------------------------------*/
+@import url(./sponspors.css);
+
+.footer {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #fff4e7;
+}
+
+.footer-text {
+  font-size: 20px;
+}

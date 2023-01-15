@@ -1,0 +1,26 @@
+.sponsor-text {
+  text-align: center;
+  margin: 0 auto;
+}
+.sponsor-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.sponsor-img {
+  width: 165.83px;
+  filter: grayscale(100);
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media screen and (min-width: 992px) {
+  .sponsor-text {
+    width: 60%;
+  }
+  .sponsor-img-container {
+    flex-flow: row;
+  }
+}
